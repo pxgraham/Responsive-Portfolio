@@ -1,0 +1,169 @@
+body {
+    font-family: arial;
+    background: repeating-linear-gradient(white, teal, white);
+    z-index: 2;
+}
+a {
+    color: #777777;
+}
+
+a:hover {
+    transition:0.5s all ease;
+}
+.titleBar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 75px;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+}
+.titleBarContent {
+    position: relative;
+    width: 960px;
+    margin: auto;
+    height: 50px;
+}
+.mainTitle {
+    width: 200px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    float: left;
+    background: #4aaaa5;
+    padding: 27px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.titleLinks {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    display: inline;
+    padding: 27px;
+}
+.bodyArea {
+    box-shadow: 5px 10px 8px #888888;
+    width: 960px;
+    margin: auto;
+    overflow: auto;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 100px;
+    overflow: auto;
+
+}
+
+.bodyTile {
+    margin: 20px 20px -20px 20px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bodyTitle {
+
+    /* padding: 40px 12px 40px 12px; */
+    width: 175px;
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+    color: white;
+    display: inline-block;
+
+
+}
+.bodyTitleText {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    text-align: left;
+    color: #777777;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px 20px 0px 20px;
+    width: 650px;
+    float: right;
+}
+.bodyText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    float: left;
+    font-weight: bold;
+    display: inline;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+}
+
+.footerA {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 50px;
+    left: 0px;
+    background: #4aaaa5;
+    width: 100%;
+    height: 5px;
+}
+.footer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: #666666;
+    width: 100%;
+    height: 50px;
+}
+.footerText {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin: 12px;
+}
+
+.bodystuff {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#btn {
+    background-color: teal; 
+    color: white; 
+    border: none; 
+    width: 50px; 
+    padding: 5px; 
+    text-align: center; 
+    margin: 10px 10px 10px 0px;
+}
+
+.box {
+    width: 95%;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+
+@media screen and (max-width: 980px) {
+    .bodyArea, .titleBarContent, .bodyTitleText {
+        width: 100%;
+    }
+    .footer, .footerA {
+        position: sticky;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bodyArea, .titleBarContent, .bodyTitleText {
+        width: 100%;
+    }
+    .footer, .footerA {
+        position: sticky;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .bodyArea, .titleBarContent, .bodyTitleText {
+        width: 100%;
+    }
+    .footer, .footerA {
+        position: sticky;
+    }
+}
