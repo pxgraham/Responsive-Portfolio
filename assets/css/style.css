@@ -148,6 +148,9 @@ canvas {
     .footer, .footerA {
         position: sticky;
     }
+    .k {
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -157,6 +160,9 @@ canvas {
     .footer, .footerA {
         position: sticky;
     }
+    .k {
+        margin-left: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -165,5 +171,8 @@ canvas {
     }
     .footer, .footerA {
         position: sticky;
+    }
+    .k {
+        margin-left: 20px;
     }
 }
